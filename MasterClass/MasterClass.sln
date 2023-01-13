@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BankProject", "BankProject", "{A0649F32-C88A-4E17-8DF5-B8BAB49BEEC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HershaBank.Presentation", "BankProject\HershaBank.Presentation\HershaBank.Presentation.csproj", "{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F} = {A0649F32-C88A-4E17-8DF5-B8BAB49BEEC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB4B5114-27AF-4631-9D98-86AEF7290D86}
+	EndGlobalSection
+EndGlobal
