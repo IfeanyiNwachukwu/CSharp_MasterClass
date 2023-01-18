@@ -7,6 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BankProject", "BankProject"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HershaBank.Presentation", "BankProject\HershaBank.Presentation\HershaBank.Presentation.csproj", "{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fields", "Fields", "{C29BC211-CFF8-4791-B36B-5D270DF3C93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fields", "Fields\Fields\Fields.csproj", "{2BC9FCF1-9528-495C-BF11-29A61EFFFB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldsLibrary", "Fields\FieldsLibrary\FieldsLibrary.csproj", "{C401A7F7-1F23-4526-AEC6-37534D683B10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Methods", "Methods", "{1DCF5770-03C3-48A6-BC37-28F2EEF54C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnMethods", "Methods\LearnMethods\LearnMethods.csproj", "{20EAB64B-0A98-40CF-B4ED-4ABB66EAAF9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsLibrary", "Methods\MethodsLibrary\MethodsLibrary.csproj", "{F676A0D6-284D-4934-9959-4A90BC8E649E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +29,32 @@ Global
 		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC9FCF1-9528-495C-BF11-29A61EFFFB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC9FCF1-9528-495C-BF11-29A61EFFFB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC9FCF1-9528-495C-BF11-29A61EFFFB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC9FCF1-9528-495C-BF11-29A61EFFFB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C401A7F7-1F23-4526-AEC6-37534D683B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C401A7F7-1F23-4526-AEC6-37534D683B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C401A7F7-1F23-4526-AEC6-37534D683B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C401A7F7-1F23-4526-AEC6-37534D683B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20EAB64B-0A98-40CF-B4ED-4ABB66EAAF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EAB64B-0A98-40CF-B4ED-4ABB66EAAF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EAB64B-0A98-40CF-B4ED-4ABB66EAAF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EAB64B-0A98-40CF-B4ED-4ABB66EAAF9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F676A0D6-284D-4934-9959-4A90BC8E649E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F676A0D6-284D-4934-9959-4A90BC8E649E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F676A0D6-284D-4934-9959-4A90BC8E649E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F676A0D6-284D-4934-9959-4A90BC8E649E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7ED1404C-A517-4B94-B52B-AD2AB32EDE6F} = {A0649F32-C88A-4E17-8DF5-B8BAB49BEEC2}
+		{2BC9FCF1-9528-495C-BF11-29A61EFFFB41} = {C29BC211-CFF8-4791-B36B-5D270DF3C93F}
+		{C401A7F7-1F23-4526-AEC6-37534D683B10} = {C29BC211-CFF8-4791-B36B-5D270DF3C93F}
+		{20EAB64B-0A98-40CF-B4ED-4ABB66EAAF9F} = {1DCF5770-03C3-48A6-BC37-28F2EEF54C4C}
+		{F676A0D6-284D-4934-9959-4A90BC8E649E} = {1DCF5770-03C3-48A6-BC37-28F2EEF54C4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB4B5114-27AF-4631-9D98-86AEF7290D86}
